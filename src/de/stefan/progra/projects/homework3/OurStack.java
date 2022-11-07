@@ -22,7 +22,7 @@ public class OurStack {
       if(terminate) {
         userInput = "PRINT";
       }
-      if(userInput == "") {
+      if(userInput.equals("")) {
         userInput = SimpleIO.getString("Bitte geben Sie eine Operation (PUSH,POP,CLEAR,SETSIZE,PRINT,STOP) ein:");
       }
 
