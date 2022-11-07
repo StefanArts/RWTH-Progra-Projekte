@@ -1,4 +1,4 @@
-package de.stefan.progra.projects.sorting;
+package de.stefan.progra.projects.homework2;
 
 import java.util.concurrent.TimeUnit;
 

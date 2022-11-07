@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Progra-Projekte.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/CodescapeSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/DateCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Leinwand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Rechteck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Scheibe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Turm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/sorting/SortingAlogrithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/sorting/SortingAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/util/SimpleIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/JavaStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/OurStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/SimpleIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework2/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/DateCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework2/DateCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Hanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Leinwand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Rechteck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Scheibe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/hanoi/Turm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/sorting/SortingAlogrithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework2/SortingAlogrithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/sorting/SortingAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework2/SortingAnimation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Development/Java/RWTH-Progra-Projekte"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\stacks" />
       <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\progra\projects\hanoi" />
       <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\programmierung\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingAlogrithm">
+  <component name="RunManager" selected="Application.OurStack">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework2.Calculator" />
       <module name="Progra-Projekte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,11 +73,11 @@
       </method>
     </configuration>
     <configuration name="DateCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.DateCalculator" />
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework2.DateCalculator" />
       <module name="Progra-Projekte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingAlogrithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.sorting.SortingAlogrithm" />
+    <configuration name="OurStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework3.OurStack" />
       <module name="Progra-Projekte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.sorting.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingAlogrithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework2.SortingAlogrithm" />
+      <module name="Progra-Projekte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.stefan.progra.projects.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OurStack" />
         <item itemvalue="Application.SortingAlogrithm" />
         <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.DateCalculator" />
@@ -139,6 +151,7 @@
       <workItem from="1667340068404" duration="2721000" />
       <workItem from="1667482372815" duration="4057000" />
       <workItem from="1667488109184" duration="1664000" />
+      <workItem from="1667817152994" duration="5960000" />
     </task>
     <servers />
   </component>

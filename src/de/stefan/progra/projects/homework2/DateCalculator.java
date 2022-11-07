@@ -1,4 +1,4 @@
-package de.stefan.progra.projects;
+package de.stefan.progra.projects.homework2;
 
 import de.stefan.progra.util.SimpleIO;
 
