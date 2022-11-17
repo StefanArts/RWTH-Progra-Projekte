@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Farbe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/HSeiteneffekte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/HWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Karte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Spieler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Spielverwaltung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Wert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/LineSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Spieler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework4/Spieler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +52,7 @@
       <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\programmierung\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HSeiteneffekte">
+  <component name="RunManager" selected="Application.Spieler">
     <configuration name="HSeiteneffekte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework4.HSeiteneffekte" />
       <module name="Progra-Projekte" />
@@ -129,8 +128,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HSeiteneffekte" />
         <item itemvalue="Application.Spieler" />
+        <item itemvalue="Application.HSeiteneffekte" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JavaStack" />
         <item itemvalue="Application.OurStack" />
@@ -156,6 +155,9 @@
       <workItem from="1667488109184" duration="1664000" />
       <workItem from="1667817152994" duration="7217000" />
       <workItem from="1668543080961" duration="17345000" />
+      <workItem from="1668673219455" duration="629000" />
+      <workItem from="1668688372431" duration="943000" />
+      <workItem from="1668692400512" duration="3727000" />
     </task>
     <servers />
   </component>

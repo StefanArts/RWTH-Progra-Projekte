@@ -82,4 +82,6 @@ public class Spieler {
         }
         return club[gewinner];
     }
+
+
 }
