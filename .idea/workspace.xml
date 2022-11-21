@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/Plot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/LineSegment.java" afterDir="false" />
     </list>
@@ -32,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Development/Java/RWTH-Progra-Projekte&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Backup/Backup Laptop 2021/dev/GameDemo"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\homework5" />
@@ -150,7 +149,9 @@
       <workItem from="1668673219455" duration="629000" />
       <workItem from="1668688372431" duration="943000" />
       <workItem from="1668692400512" duration="3727000" />
-      <workItem from="1668714232961" duration="9112000" />
+      <workItem from="1668714232961" duration="9388000" />
+      <workItem from="1668725857479" duration="1198000" />
+      <workItem from="1668731103920" duration="9000" />
     </task>
     <servers />
   </component>

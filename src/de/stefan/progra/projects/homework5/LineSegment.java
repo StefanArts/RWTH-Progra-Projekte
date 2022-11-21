@@ -1,6 +1,5 @@
 package de.stefan.progra.projects.homework5;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class LineSegment {
