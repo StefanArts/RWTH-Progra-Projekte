@@ -27,42 +27,71 @@ public class LineSegment {
         int y1 = rn.nextInt(max);
         int y2 = rn.nextInt(max);
 
-        if(length > -1) {
+        if (length > -1) {
             do {
                 double angle = rn.nextInt(360) * Math.PI / 180;
                 x2 = (int) (x1 + length * Math.cos(angle));
-                y2 = (int) (y1 + length + Math.sin(angle));
-            } while(x2 >= max || y2 >= max);
+                y2 = (int) (y1 + length * Math.sin(angle));
+            } while (x2 >= max || y2 >= max || x2 < 0 || y2 < 0);
         }
         start = new Point(x1, y1);
         end = new Point(x2, y2);
     }
 
-    private LineSegment[] spawnParallel(int distance, int n) {
+    public static LineSegment[] spawnParallel(int distance, int n) {
+        if (n < 2) return null;
         LineSegment[] lineArray = new LineSegment[n];
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             lineArray[i] = new LineSegment(
-                    new Point(0, distance * i),
-                    new Point(distance, distance * i)
+                    new Point(0, (distance / (n - 1)) * i),
+                    new Point(distance, (distance / (n - 1) * i))
             );
         }
         return lineArray;
     }
 
+    private boolean intersectHorizontal(LineSegment l) {
+        if (l.getA().y() != l.getB().y()) return false;
+        if (this.start.y() <= l.start.y() && this.end.y() >= l.start.y() ||
+                this.start.y() >= l.start.y() && this.end.y() <= l.start.y()) {
+            return true;
+        }
+        return false;
+    }
 
-    public Point getStart() {
+    private boolean intersectHorizontal(LineSegment[] parallel) {
+        for (LineSegment l : parallel) {
+            if (intersectHorizontal(l)) return true;
+        }
+        return false;
+    }
+
+    public static double computeValue(LineSegment[] parallel, LineSegment[] random) {
+        int m = 0;
+        for (LineSegment segment : random) {
+            if (segment.intersectHorizontal(parallel)) {
+                m++;
+            }
+        }
+        if (m == 0) return 0d;
+        return 2 * ((double) random.length / m);
+
+    }
+
+
+    public Point getA() {
         return start;
     }
 
-    public Point getEnd() {
+    public Point getB() {
         return end;
     }
 
-    public void setStart(Point start) {
+    public void setA(Point start) {
         this.start = start;
     }
 
-    public void setEnd(Point end) {
+    public void setB(Point end) {
         this.end = end;
     }
 
