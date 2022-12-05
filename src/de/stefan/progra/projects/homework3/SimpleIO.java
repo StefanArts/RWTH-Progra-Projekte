@@ -27,8 +27,8 @@ public class SimpleIO {
 	 * @param <T> To specify return type and some parameter types
 	 * @return The object the user entered
 	 */
-	private static <T> T getInputObjectConsole(Class<T> tClass, String title, Object messages[],
-												   T[] options, T initialOption){
+	private static <T> T getInputObjectConsole(Class<T> tClass, String title, Object[] messages,
+                                               T[] options, T initialOption){
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println(title);
@@ -48,7 +48,7 @@ public class SimpleIO {
 				System.out.print(" " + option.toString() + " |");
 			}
 
-			System.out.println("");
+			System.out.println();
 		}
 
 		String result = scanner.nextLine();
@@ -77,8 +77,8 @@ public class SimpleIO {
 	 * @param <T> To specify return type and some parameter types
 	 * @return The object the user entered
 	 */
-	private static <T> T getInputObjectJOptionPane(Class<T> tClass, String title, Object messages[],
-												   T[] options, T initialOption){
+	private static <T> T getInputObjectJOptionPane(Class<T> tClass, String title, Object[] messages,
+                                                   T[] options, T initialOption){
 		T tmp;
 
 		if(options == null){
@@ -111,7 +111,7 @@ public class SimpleIO {
 						JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE,
 						null, null, null);
 
-				tmp = result == JOptionPane.OK_OPTION ? (T) comboBox.getItemAt(comboBox.getSelectedIndex()) : null;
+				tmp = result == JOptionPane.OK_OPTION ? comboBox.getItemAt(comboBox.getSelectedIndex()) : null;
 			}
 		}
 
@@ -190,7 +190,7 @@ public class SimpleIO {
 	 **/
 	public static boolean getBoolean(String prompt){
 		Boolean b = getGenericObject(Boolean.class, prompt, new Boolean[]{true, false}, true);
-		return b == null ? false : b;
+		return b != null && b;
 	}
 
 

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/SwitchWithID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/mathhelp/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework2/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/SimpleIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework3/SimpleIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework5/LineSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/hfractal/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/hfractal/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/hfractal/Hilbert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/hfractal/Hilbert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/tfractal/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework6/tfractal/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/util/SimpleIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/util/SimpleIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,31 +43,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Backup/Backup Laptop 2021/dev/GameDemo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Backup/Backup Laptop 2021/dev/GameDemo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\homework6" />
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\homework5" />
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\homework4" />
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\stacks" />
       <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\progra\projects\hanoi" />
-      <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\programmierung\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.de.stefan.progra.projects.homework5.Plot">
-    <configuration name="HSeiteneffekte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework4.HSeiteneffekte" />
+  <component name="RunManager" selected="Application.Division">
+    <configuration name="Division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.mathhelp.Division" />
       <module name="Progra-Projekte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.homework4.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.mathhelp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,13 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework4.Main" />
+    <configuration name="Hilbert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework6.hfractal.Hilbert" />
       <module name="Progra-Projekte" />
-      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.homework4.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.homework6.hfractal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,19 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Plot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Plot" />
-      <module name="Progra-Projekte" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spieler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework4.Spieler" />
+    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework6.Switch" />
       <module name="Progra-Projekte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.homework4.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="de.stefan.progra.projects.homework5.Plot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework5.Plot" />
+    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework6.SwitchTest" />
       <module name="Progra-Projekte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.stefan.progra.projects.homework5.*" />
+          <option name="PATTERN" value="de.stefan.progra.projects.homework6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.stefan.progra.projects.homework6.SwitchTester" />
+      <module name="Progra-Projekte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.stefan.progra.projects.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Plot" />
-      <item itemvalue="Application.de.stefan.progra.projects.homework5.Plot" />
-      <item itemvalue="Application.HSeiteneffekte" />
-      <item itemvalue="Application.Spieler" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SwitchTest" />
+      <item itemvalue="Application.SwitchTester" />
+      <item itemvalue="Application.Hilbert" />
+      <item itemvalue="Application.Switch" />
+      <item itemvalue="Application.Division" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.de.stefan.progra.projects.homework5.Plot" />
-        <item itemvalue="Application.Plot" />
-        <item itemvalue="Application.Spieler" />
-        <item itemvalue="Application.HSeiteneffekte" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Division" />
+        <item itemvalue="Application.Switch" />
+        <item itemvalue="Application.SwitchTest" />
+        <item itemvalue="Application.SwitchTester" />
+        <item itemvalue="Application.Hilbert" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +176,17 @@
       <workItem from="1668714232961" duration="9388000" />
       <workItem from="1668725857479" duration="1198000" />
       <workItem from="1668731103920" duration="9000" />
+      <workItem from="1669064969539" duration="689000" />
+      <workItem from="1669137134015" duration="4857000" />
+      <workItem from="1669637157500" duration="2252000" />
+      <workItem from="1669656074417" duration="11513000" />
+      <workItem from="1669733754164" duration="21448000" />
+      <workItem from="1669770055115" duration="7984000" />
+      <workItem from="1669926809214" duration="50000" />
+      <workItem from="1669927001565" duration="77000" />
+      <workItem from="1669927087183" duration="195000" />
+      <workItem from="1669927292214" duration="2526000" />
+      <workItem from="1670229762191" duration="960000" />
     </task>
     <servers />
   </component>
@@ -179,5 +214,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="de.stefan.progra.projects.homework6.Switch$SwitchContainer" memberName="switches" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

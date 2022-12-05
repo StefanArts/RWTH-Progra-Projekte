@@ -42,11 +42,10 @@ public class Calculator {
     }
 
     public static boolean isMathOp(String op) {
-        if( !op.equals("ADD") &&
-            !op.equals("SUB") &&
-            !op.equals("MUL") &&
-            !op.equals("DIV")) return false;
-        return true;
+        return op.equals("ADD") ||
+                op.equals("SUB") ||
+                op.equals("MUL") ||
+                op.equals("DIV");
     }
 
     public static int calculate(int s1, int s2, String operation) {

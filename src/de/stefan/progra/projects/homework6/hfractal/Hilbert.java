@@ -1,5 +1,4 @@
 package de.stefan.progra.projects.homework6.hfractal;
-
 public class Hilbert {
 
     static void hilbertLinks(Canvas c, int ordnung, int length) {
@@ -33,7 +32,7 @@ public class Hilbert {
     }
 
     public static void main(String[] args) {
-        int ordnung = 10;
+        int ordnung = 6;
         int length = 5;
         boolean links = true;
         switch (args.length) {

@@ -6,7 +6,7 @@ public class LineSegment {
     private Point start;
     private Point end;
 
-    private static Random rn = new Random();
+    private static final Random rn = new Random();
 
     public LineSegment(Point start, Point end) {
         this.start = start;
@@ -52,11 +52,8 @@ public class LineSegment {
 
     private boolean intersectHorizontal(LineSegment l) {
         if (l.getA().y() != l.getB().y()) return false;
-        if (this.start.y() <= l.start.y() && this.end.y() >= l.start.y() ||
-                this.start.y() >= l.start.y() && this.end.y() <= l.start.y()) {
-            return true;
-        }
-        return false;
+        return this.start.y() <= l.start.y() && this.end.y() >= l.start.y() ||
+                this.start.y() >= l.start.y() && this.end.y() <= l.start.y();
     }
 
     private boolean intersectHorizontal(LineSegment[] parallel) {
@@ -97,6 +94,6 @@ public class LineSegment {
 
     @Override
     public String toString() {
-        return "(" + start.x() + "," + start.y() + ") -- " + "(" + start.x() + "," + start.y() + ")";
+        return start.toString() + " -- " + end.toString();
     }
 }

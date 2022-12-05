@@ -76,7 +76,7 @@ public class Canvas {
     /**
      * The actions to be executed on the canvas.
      */
-    private ArrayList<Canvas.GraphicAction> actions = new ArrayList<>();
+    private final ArrayList<Canvas.GraphicAction> actions = new ArrayList<>();
 
     /**
      * The actual drawing on the canvas.
