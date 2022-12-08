@@ -1,9 +1,9 @@
 package de.stefan.progra.projects.homework7;
 
-public class ModifiedTextDocumnent extends TextDocument{
+public class ModifiedTextDocument extends TextDocument{
     private TextDocument recentVersion;
 
-    public ModifiedTextDocumnent(TextDocument document, String content) {
+    public ModifiedTextDocument(TextDocument document, String content) {
         super(content);
         recentVersion = document;
     }

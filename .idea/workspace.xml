@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/AddTextAtOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/ModifiedTextDocumnent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/RemoveTextSectionOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/ReplaceTextSectionOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/TextDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework7/UndoOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/BigDecimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Punkt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/SinglePointException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +41,19 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;G:/Backup/Backup Laptop 2021/dev/GameDemo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\progra\projects\homework8" />
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\homework5" />
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\homework4" />
       <recent name="D:\Development\Java\RWTH-Progra-Projekte\src\de\stefan\progra\projects\stacks" />
       <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\progra\projects\hanoi" />
-      <recent name="C:\Users\Stefan\Documents\Progra-Projekte\src\de\stefan\programmierung\util" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Launcher">
@@ -165,6 +163,11 @@
       <workItem from="1669906468034" duration="118000" />
       <workItem from="1669912195055" duration="130000" />
       <workItem from="1669912342429" duration="177000" />
+      <workItem from="1670250612190" duration="13000" />
+      <workItem from="1670491788174" duration="1057000" />
+      <workItem from="1670503446731" duration="1080000" />
+      <workItem from="1670506506766" duration="1126000" />
+      <workItem from="1670507654053" duration="1102000" />
     </task>
     <servers />
   </component>
