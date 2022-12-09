@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/BigDecimalUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Punkt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/SinglePointException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/LineSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Ray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/SinglePointException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/SinglePointException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,7 @@
       <workItem from="1670491788174" duration="1057000" />
       <workItem from="1670503446731" duration="1080000" />
       <workItem from="1670506506766" duration="1126000" />
-      <workItem from="1670507654053" duration="1102000" />
+      <workItem from="1670507654053" duration="3376000" />
     </task>
     <servers />
   </component>

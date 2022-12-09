@@ -2,8 +2,7 @@ package de.stefan.progra.projects.homework8;
 import java.math.*;
 
 public class Point {
-    private final BigDecimal x;
-    private final BigDecimal y;
+    private final BigDecimal x, y;
 
     public Point(BigDecimal x, BigDecimal y) {
         this.x = x;
@@ -30,6 +29,14 @@ public class Point {
             }
         }
         return false;
+    }
+
+    public BigDecimal getX() {
+        return x;
+    }
+
+    public BigDecimal getY() {
+        return y;
     }
 
     @Override
