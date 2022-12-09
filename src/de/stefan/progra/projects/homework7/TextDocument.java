@@ -12,13 +12,13 @@ public class TextDocument {
     }
 
     public TextDocument noop() {
-        return new ModifiedTextDocumnent(this, content);
+        return new ModifiedTextDocument(this, content);
     }
 
     public TextDocument replaceTextSection(int beginIndex, int endIndex, String replacement) {
         String toReplace = content.substring(beginIndex, endIndex);
         String newContent = content.replace(toReplace, replacement);
-        return new ModifiedTextDocumnent(this, newContent);
+        return new ModifiedTextDocument(this, newContent);
     }
 
     public TextDocument addTextAt(int position, String addition) {
@@ -29,7 +29,7 @@ public class TextDocument {
                     content.charAt(position) + addition
             );
         }
-        return new ModifiedTextDocumnent(this, newContent);
+        return new ModifiedTextDocument(this, newContent);
     }
 
     public TextDocument removeTextSection(int beginIndex, int endIndex) {
