@@ -4,11 +4,9 @@ public sealed class Ray extends Line implements ToInfinity
 permits LineSegment {
 
     private final Point startingPoint;
-    public Ray(Point p1, Point p2) throws SinglePointException {
-        super(p1, p2);
-        //if(this.p1.equals(p1)) startingPoint = p1;
-        //else startingPoint = p2;
-        startingPoint = p1;
+    public Ray(Point a, Point b) throws SinglePointException {
+        super(a, b);
+        startingPoint = a;
     }
 
     public boolean startsFromP1() {
@@ -19,7 +17,15 @@ permits LineSegment {
     }
 
     public Line extend() {
-        return this;
+        try {
+            return new Line(p1, p2);
+        } catch (SinglePointException e) {
+            /*
+             *  Dieser Fall darf nicht auftreten, da der Fehler bereits bei Erstellung der ersten Gerade
+             *  geworfen worden waere.
+             */
+            throw new RuntimeException(e);
+        }
     }
 
     public boolean contains(Point p0) {

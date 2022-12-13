@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751e9025-7137-41ae-be0b-abbadaabb132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/ToInfinity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/LineSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Ray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/Ray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/ToInfinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/stefan/progra/projects/homework8/ToInfinity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +188,8 @@
       <workItem from="1670879057451" duration="5000" />
       <workItem from="1670879088054" duration="6138000" />
       <workItem from="1670921770569" duration="678000" />
-      <workItem from="1670923564815" duration="3553000" />
+      <workItem from="1670923564815" duration="4421000" />
+      <workItem from="1670945499956" duration="12552000" />
     </task>
     <servers />
   </component>

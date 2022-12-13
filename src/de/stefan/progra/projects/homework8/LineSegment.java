@@ -14,11 +14,19 @@ public final class LineSegment extends Ray {
         return betweenP1P2(p0);
     }
 
-    public Ray extend(boolean swap) throws SinglePointException {
-        if(swap) {
-            return new Ray(p2, p1);
-        } else {
-            return this;
+    public Ray extend(boolean swap) {
+        try {
+            if(swap) {
+                return new Ray(p2, p1);
+            } else {
+                return this;
+            }
+        } catch (SinglePointException e) {
+            /*
+             *  Dieser Fall darf nicht auftreten, da der Fehler bereits bei Erstellung der ersten Gerade
+             *  geworfen worden waere.
+             */
+            throw new RuntimeException(e);
         }
     }
 

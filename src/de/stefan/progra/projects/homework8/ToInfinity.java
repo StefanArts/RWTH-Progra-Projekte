@@ -1,4 +1,6 @@
 package de.stefan.progra.projects.homework8;
 
-public interface ToInfinity {
+public sealed interface ToInfinity
+permits Line, Ray {
+
 }
