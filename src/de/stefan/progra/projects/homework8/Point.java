@@ -13,7 +13,7 @@ public class Point {
         this(BigDecimal.valueOf(x), BigDecimal.valueOf(y));
     }
 
-    public BigDecimal abstand(Point other) {
+    public BigDecimal distance(Point other) {
         BigDecimal diffX = x.subtract(other.x);
         BigDecimal diffY = y.subtract(other.y);
         return BigDecimalUtility.sqrt(diffX.pow(2).add(diffY.pow(2)));
@@ -21,7 +21,7 @@ public class Point {
 
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof Point) {
+        if(obj.getClass().equals(this.getClass())) {
             Point target = (Point) obj;
             if(BigDecimalUtility.equalValues(x, target.x) &&
                 BigDecimalUtility.equalValues(y, target.y)) {
